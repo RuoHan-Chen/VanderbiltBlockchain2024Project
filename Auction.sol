@@ -55,6 +55,7 @@ contract EnglishAuction {
     function end() external {
         require(started, "Auction has not started");
         require(!ended, "Auction has already ended");
+        require(msg.sender == seller, "Only the seller can start the auction");
 
         ended = true;
 
