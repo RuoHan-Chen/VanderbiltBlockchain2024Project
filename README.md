@@ -1,4 +1,3 @@
-# VanderbiltBlockchain2024Project
 # Project Instructions
 
 ## Step 1: Watch Tutorial
