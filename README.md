@@ -10,8 +10,7 @@
 
 ## Step 3: Copy Improved Code
 - After successfully completing the project, replace the tutorial code with the the code on this repo.
-- I added some functionality like automatically withdrawing when the highest bidder changes.
-- Also, I changed the end period to whenever the owner decides to close. 
+- I added some functionality like with withdrawing and how it ends
 
 ## Step 4: Add New Functionality
 - Add additional features to the project, such as:
