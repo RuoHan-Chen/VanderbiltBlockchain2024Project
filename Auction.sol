@@ -1,11 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
-interface IERC721 {
-    function safeTransferFrom(address from, address to, uint256 tokenId)
-        external;
-    function transferFrom(address, address, uint256) external;
-}
 
 contract EnglishAuction {
     event Start();
@@ -17,7 +13,6 @@ contract EnglishAuction {
     uint256 public nftId;
 
     address payable public seller;
-    uint256 public endAt;
     bool public started;
     bool public ended;
 
@@ -38,14 +33,13 @@ contract EnglishAuction {
 
         nft.transferFrom(msg.sender, address(this), nftId);
         started = true;
-        endAt = block.timestamp + 7 days;
 
         emit Start();
     }
 
     function bid() external payable {
         require(started, "Auction has not started");
-        require(block.timestamp < endAt, "Auction has ended");
+        require(!ended, "Auction has already ended");
         require(msg.value > highestBid, "New bid must be higher than the current highest bid");
 
         if (highestBidder != address(0)) {
@@ -60,7 +54,6 @@ contract EnglishAuction {
 
     function end() external {
         require(started, "Auction has not started");
-        require(block.timestamp >= endAt, "Auction has not ended yet");
         require(!ended, "Auction has already ended");
 
         ended = true;
