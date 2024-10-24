@@ -25,7 +25,8 @@
 - A video walkthrough on using Remix will be added soon for further instructions.
 
 ## Step 6: Submit Project
-- Submit the project on this form [https://forms.gle/8DTtaoZNDhAqvXV29/]
+- Submit the project on this form https://forms.gle/8DTtaoZNDhAqvXV29/
+- If you are working on the bounty, please indicate that on the form.
 ---
 
 Be sure to test your new features thoroughly before submitting the project.
