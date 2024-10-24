@@ -10,7 +10,7 @@
 
 ## Step 3: Copy Improved Code
 - After successfully completing the project, replace the tutorial code with the the code on this repo.
-- I added some functionality like with withdrawing and how it ends
+- I added some functionality with withdrawing and how it ends
 
 ## Step 4: Add New Functionality
 - Add additional features to the project, such as:
@@ -27,7 +27,7 @@
 
 ## Step 6: Submit Project
 - Submit the project on this form https://forms.gle/8DTtaoZNDhAqvXV29/
-- If you are working on the bounty, please indicate that on the form.
+- If you are working on the bounty, please indicate that on the form. People working on the bounty does not have to do this project.
 ---
 
 Be sure to test your new features thoroughly before submitting the project.
