@@ -27,6 +27,7 @@
 
 ## Step 6: Submit Project
 - Submit the project on this form https://forms.gle/8DTtaoZNDhAqvXV29/
+- Make sure to add comments or a README before submitting
 - If you are working on the bounty, please indicate that on the form. People working on the bounty does not have to do this project.
 ---
 
