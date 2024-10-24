@@ -20,6 +20,9 @@
   - The ability to bid on more than one NFT
   - Or any other feature that challenges you and demonstrates your understanding of the code.
   - It doesn't have to be anything crazy just something to improve user experience like what I added.
+  - I can see a couple weaknesses issues in the code that y'all definitely can fix.
+  - Also make sure to implement the checks effects rule and read this doc to understand more about potential vulnerability
+  - https://docs.soliditylang.org/en/v0.8.26/security-considerations.html
 
 ## Step 5: Remix Runthrough
 - A video walkthrough on using Remix will be added soon for further instructions.
