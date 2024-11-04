@@ -23,7 +23,7 @@
   - https://docs.soliditylang.org/en/v0.8.26/security-considerations.html
 
 ## Step 5: Remix Runthrough
-- A video walkthrough on using Remix will be added soon for further instructions.
+- The video of the runthrough is found here: https://youtu.be/-6ig2brDSAw
 
 ## Step 6: Submit Project
 - Submit the project on this form https://forms.gle/8DTtaoZNDhAqvXV29/
