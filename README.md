@@ -6,6 +6,7 @@
 
 ## Step 2: Recreate the Project
 - Use the Remix IDE to recreate the project as demonstrated in the tutorial.
+- You do not need to worry about the premade code on remix (Ballot, Storage, ect)
 - https://www.youtube.com/watch?v=ZeFjGJpzI7E
 
 ## Step 3: Copy Improved Code
@@ -27,6 +28,7 @@
 
 ## Step 6: Submit Project
 - Submit the project on this form https://forms.gle/8DTtaoZNDhAqvXV29/
+- You DO NOT need to connect your github to remix. Just copy paste the code from remix to your repo.
 - Make sure to add comments or a README before submitting
 - If you are working on the bounty, please indicate that on the form. People working on the bounty does not have to do this project.
 ---
